@@ -1,0 +1,97 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.btn-success, .btn.btn-success, .btn-success.custom-file-control::before {
+    color: #fff;
+    background-color : #4caf50;
+    border-color: #4caf50;
+}
+
+.btn-primary, .btn.btn-primary, .btn-primary.custom-file-control::before {
+    color: #fff;
+    background-color : #009688;
+    border-color: #009688;
+}
+
+.btn-warning, .btn.btn-warning, .btn-warning.custom-file-control::before {
+    color: #fff;
+    background-color : #ff5722;
+    border-color: #ff5722;
+}
+
+.fa {
+    margin-left: 6px;
+}
+
+.navbar > .logo {
+    padding: 10px;
+}
+
+input[type=text],
+input[type=text]:focus,
+input[type=submit],
+input[type=submit]:focus{
+    outline: none;
+}
+
+/*--------------------
+--CUSTOM PROPERTIES---
+--------------------*/
+.center {
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.navbar {
+    box-shadow: none;
+}
+
+.modal-article > img {
+    width: 100%;
+    max-width: 100%;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    pointer-events: none;
+}
+
+.iziModal-wrap,
+.modal-option {
+    background: #fa9e30;
+}
+
+.modal-option .iziModal {
+    background: none;
+}
+
+@media screen and (max-width: 860px) {
+    .column {
+        width: 40%;
+        max-width: 300px !important;
+    }
+}
+@media screen and (max-width: 660px) {
+    .column {
+        width: 100%;
+        max-width: 1000px !important;
+    }
+}
+
+.column, a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
+    cursor: pointer;
+}
+
+.invisible {
+    display: none !important;
+}
+
+.thumbnail {
+    background: white !important;
+}
