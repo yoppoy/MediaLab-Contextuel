@@ -1,0 +1,1 @@
+A responsive Web POC developed for the 2017 medialab (organised by EPITECH / EDHEC / ESJ & E-ARTSUP).
